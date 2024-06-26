@@ -20,7 +20,7 @@ The Movie Ticket Booking Management System is a software application built using
 
 - **Admin Form:** Provides administrative functionalities for managing the system.
 - **RegistrationForm:** Allows new users to register in the system.
-- **Form1:** Handles user login with existing credentials.
+- **LoginForm:** Handles user login with existing credentials.
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ The Movie Ticket Booking Management System is a software application built using
 
 ### Configuration
 
-Update the connection strings and other configurations in `RegistrationForm.cs` and `Form1.cs`:
+Update the connection strings and other configurations in `RegistrationForm.cs` and `LoginForm.cs`:
 
 ```csharp
 string conn = @"Your Connection String";

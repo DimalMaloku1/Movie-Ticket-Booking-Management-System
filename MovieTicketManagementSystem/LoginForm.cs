@@ -12,10 +12,10 @@ using System.Data.SqlClient;
 
 namespace MovieTicketManagementSystem
 {
-    public partial class Form1 : Form
+    public partial class LoginForm : Form
     {
         string conn = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\OnLine\Documents\movie.mdf;Integrated Security=True;Connect Timeout=30";
-        public Form1()
+        public LoginForm()
         {
             InitializeComponent();
         }

@@ -33,7 +33,7 @@ namespace MovieTicketManagementSystem
 
         private void reg_signInBtn_Click(object sender, EventArgs e)
         {
-            Form1 loginForm = new Form1();
+            LoginForm loginForm = new LoginForm();
             loginForm.Show();
 
             this.Hide();
@@ -95,7 +95,7 @@ namespace MovieTicketManagementSystem
                                 MessageBox.Show("Registered Successfully", "Information Message",
                                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                                Form1 loginForm = new Form1();
+                                LoginForm loginForm = new LoginForm();
                                 loginForm.Show();
 
                                 this.Hide();

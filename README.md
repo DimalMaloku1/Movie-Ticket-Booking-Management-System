@@ -51,3 +51,34 @@ Update the connection strings and other configurations in `RegistrationForm.cs` 
 
 ```csharp
 string conn = @"Your Connection String";
+
+```
+
+## Database Setup
+
+### Create the database
+
+1. Open SQL Server Management Studio (SSMS).
+2. Attach the `MovieTicketBookingDB.mdf` database file to SQL Server.
+
+### Run the SQL scripts
+
+1. Locate the `DatabaseScripts` folder.
+2. Execute the SQL scripts within the folder to create the necessary tables and seed initial data.
+
+## Usage
+
+### Admin Dashboard
+
+1. Launch the application.
+2. Log in using admin credentials to access the admin dashboard.
+3. Manage application settings, users, and other administrative tasks.
+
+### User Registration
+
+- New users can register using the registration form.
+
+### Login
+
+- Existing users can log in using the login form.
+

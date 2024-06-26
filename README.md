@@ -68,7 +68,7 @@ string conn = @"Your Connection String";
 
 ## Usage
 
-### Admin Dashboard
+### Admin Dashboard (Comming Soon !!!)
 
 1. Launch the application.
 2. Log in using admin credentials to access the admin dashboard.
